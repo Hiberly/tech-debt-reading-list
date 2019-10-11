@@ -40,9 +40,9 @@ We created this project as we felt that it is almost an inevitability that some 
 
 * [Will Larson](https://twitter.com/lethain?lang=en) explains how Stripe use migrations to get away from tech debt
 
-##Prevention
+## Prevention
 
-###Requirements
+### Requirements
 
 [Creating a Product Canvas](https://www.ebgconsulting.com/blog/using-product-canvas-define-product-getting-started/)
 
@@ -74,27 +74,27 @@ We created this project as we felt that it is almost an inevitability that some 
 * Continuous integration makes it easier to build cohesive software more rapidly. It involves every team member integrating their work frequently - normally, daily.
 * It makes bugs show up more quickly because there are fewer areas where they could be lurking (ie diff-debugging is possible)
 
-###Architectural
+### Architectural
 
 http://www.exa.unicen.edu.ar/escuelapav/cursos/slidesclements.pdf
 https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/
 
-###Design
+### Design
 Todo
-###Code
+### Code
 Todo
-###Testing
+### Testing
 Todo
-###Build
+### Build
 Todo
-###Documentation
+### Documentation
 Todo
-###Versioning
+### Versioning
 Todo
 
-##Remediation
+## Remediation
 
-###Post Mortems
+### Post Mortems
 
 [PagerDuty Toolbox]([https://postmortems.pagerduty.com](https://postmortems.pagerduty.com/))
 
@@ -114,7 +114,7 @@ Todo
 * 38 research papers summarised found there isn't a distinct "best practice" that has become clear yet.
 * Code and architecture are by far the two most focussed on areas, yet there are many more forms of debt (requirements, and tests, for example).
 
-###Boy Scout Rule
+### Boy Scout Rule
 Todo
 
 ###Tools
