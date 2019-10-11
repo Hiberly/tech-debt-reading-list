@@ -2,7 +2,7 @@
 
 A tech debt reading and resources list - to help diagnose, prevent and control tech debt.
 
-We created this project as we felt that it is almost an inevitability that some level of "tech debt" is encountered in every company, and many projects. The reason being that to get a feature out, it needs shaping and that involves - rationally - taking shortcuts.
+This list was put together because it is an inevitability that _some_ level of "tech debt" is encountered in every company, and many projects. The reason being that to get a feature out, it needs shaping and that involves - rationally - taking shortcuts.
 
 ## 🏁 Start here
 
@@ -22,15 +22,10 @@ We created this project as we felt that it is almost an inevitability that some 
 
 [The Human Cost of Technical Debt?](https://daedtech.com/human-cost-tech-debt/)
 
-* Erik Dietrick goes into depth for how technical debt can harm teams.
-* There includes discussion on (1) unpleasant work (2) team infighting (3) atrophied skills (4) turnover and attrition
+* [Erik Dietrick](https://twitter.com/DaedTech) goes into depth for how technical debt can harm teams.
+* There includes discussion on (1) unpleasant work (2) team infighting (3) atrophied skills (4) turnover and attrition.
 
 ## 🎖 Case Studies
-
-[A large bank](http://neopragma.com/index.php/2019/03/30/technical-debt-the-man-the-metaphor-the-message/)
-
-* [Dave Nicollete](https://twitter.com/davenicolette) covers a detailed case study, with costs, of resolving prudent-intentional debt.
-* Costs of the cleanup and the business impact included.
 
 [Ticketmaster](https://tech.ticketmaster.com/2015/06/30/what-ticketmaster-is-doing-about-technical-debt/)
 
@@ -38,7 +33,17 @@ We created this project as we felt that it is almost an inevitability that some 
 
 [Stripe](https://www.infoq.com/presentations/stripe-technical-debt/)
 
-* [Will Larson](https://twitter.com/lethain?lang=en) explains how Stripe use migrations to get away from tech debt
+* [Will Larson](https://twitter.com/lethain?lang=en) explains how Stripe use migrations to get away from tech debt.
+
+[A large bank](http://neopragma.com/index.php/2019/03/30/technical-debt-the-man-the-metaphor-the-message/)
+
+* [Dave Nicollete](https://twitter.com/davenicolette) covers a detailed case study, with costs, of resolving prudent-intentional debt.
+* Costs of the cleanup and the business impact included.
+
+[Optimizely design debt approach](https://medium.com/design-optimizely/pay-down-design-debt-with-polish-day-867eb59dd83d)
+
+* [Dave Rau](http://daverau.info/) explains how when Optimizely got to 50 UI issues, they decided to do something about it.
+* The team ran a 'Polish Day' once a week, with a points system for designers to prioritize work.
 
 ## ⛔ Prevention
 
@@ -46,7 +51,9 @@ We created this project as we felt that it is almost an inevitability that some 
 
 [Creating a Product Canvas](https://www.ebgconsulting.com/blog/using-product-canvas-define-product-getting-started/)
 
-* 
+* [Ellen Gottesdiener](https://twitter.com/ellengott) provides a canvas to convey what the product is, and how it is strategically positioned.
+* The first part of the canvas comes _before_ everything else and gives the context. It goes from vision through other high level areas such as revenue, competitors, and the innovation landscape.
+* The second part of the template is used to explain product requirements.
 
 [Story Mapping](https://www.jpattonassociates.com/the-new-backlog/)
 
@@ -76,9 +83,26 @@ http://www.exa.unicen.edu.ar/escuelapav/cursos/slidesclements.pdf
 https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/
 
 ### 🎨 Design
-Todo
+
+[What is design debt?](https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89)
+* An extensive run through by [Michal Mazur](https://twitter.com/mazi_mazur), from his experiences at Kurt Geiger, where they ran a 
+
+[Marginal Brand Degredation](https://markboulton.co.uk/journal/marginal-degredation/)
+* Just 1.6% is the difference in DNA between a gorilla and a human. [Mark Boulton](https://twitter.com/markboulton) uses a powerful analogy to explain the importance of marginal brand degradation.
+
+[Design Systems](https://github.com/alexpate/awesome-design-systems)
+* An enormous set of example design systems collated by [Alex Pate](https://twitter.com/alexjpate)
+* Covers components, voice and tone, designers kit and source code availability.
+
+[Primer Interface Guidelines](https://github.com/primer/design)
+* Repository to generate documentation for UI patterns and interaction guidelines.
+
 ### 💻 Code
-Todo
+[SOLID Principles of Object Oriented and Agile Design](https://www.youtube.com/watch?v=TMuno5RZNeE)
+
+* Bob Martin ('Uncle Bob') explains software design principles.
+* This covers the principles of: Single Repository, Open Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
+
 ### ✅ Testing
 [Test Driven Development](https://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf)
 
