@@ -58,7 +58,7 @@ We created this project as we felt that it is almost an inevitability that some 
 
 * This is a thorough run-through by the Project Management Institute for Joint Application Design. It gives guidance on how to run design sessions for multi-stakeholder requirements gathering.
 
-### Infrastructure
+### 📡 Infrastructure
 
 [DevOps 101](https://opensource.com/article/19/4/devops-pipeline)
 
@@ -70,31 +70,31 @@ We created this project as we felt that it is almost an inevitability that some 
 * Continuous integration makes it easier to build cohesive software more rapidly. It involves every team member integrating their work frequently - normally, daily.
 * It makes bugs show up more quickly because there are fewer areas where they could be lurking (ie diff-debugging is possible)
 
-### Architectural
+### 🏛️ Architectural
 
 http://www.exa.unicen.edu.ar/escuelapav/cursos/slidesclements.pdf
 https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/
 
-### Design
+### 🎨 Design
 Todo
-### Code
+### 💻 Code
 Todo
-### Testing
+### ✅ Testing
 [Test Driven Development](https://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf)
 
 * [Kent Beck](https://twitter.com/KentBeck) is accredited with the concept of Test Driven Development (TDD)
 * Test Driven Development is defined by writing tests before writing any functionality.
 
-### Build
+### 🛠️ Build
 Todo
 ### 📝 Documentation
 Todo
-### Versioning
+### 🏚️ Versioning
 Todo
 
-## Remediation
+## 🏥 Remediation
 
-### Post Mortems
+### 🔍 Post Mortems
 
 [PagerDuty Toolbox]([https://postmortems.pagerduty.com](https://postmortems.pagerduty.com/))
 
@@ -114,12 +114,13 @@ Todo
 * 38 research papers summarised found there isn't a distinct "best practice" that has become clear yet.
 * Code and architecture are by far the two most focussed on areas, yet there are many more forms of debt (requirements, and tests, for example).
 
-### Boy Scout Rule
+### 🧭 Boy Scout Rule
 [The Boy Scout Rule explained](https://dev.to/_arunsasi/the-boy-scout-rule)
 
 * [Arun Sasidharan](https://twitter.com/voidmaindev) creates a great explanation of Bob Martin's rule.
+* The premise is to create a culture of leaving the code in a better state than when you started.
 
-### 🧭 Tools
+### 🧰 Tools
 * Continuous tracking of Tech Debt based on merges: [Hiberly](https://hiberly.com)
 * Code coverage, Cyclomatic complexity: [Sonarqube](http://www.sonarqube.org/)
 * Time to Interact: [Yottaa](http://www.yottaa.com/)
@@ -145,4 +146,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 [![Hiberly](https://s3-eu-west-2.amazonaws.com/hiberly-wordpress/wp-content/uploads/2019/07/31001245/small-logo-whiteback-blockdots-blacktext-1-e1564532005680.png)](https://hiberly.com?utm_campaign=os&utm_medium=getify&utm_source=sponsorship)
 
 Hiberly prioritises tech debt by grabbing feedback from developers after each merge.
+
 You can then draw cool graphs of your code versus happiness / frustration to help explain the impact of refactoring.
