@@ -4,7 +4,7 @@ A tech debt reading and resources list - to help diagnose, prevent and control t
 
 We created this project as we felt that it is almost an inevitability that some level of "tech debt" is encountered in every company, and many projects. The reason being that to get a feature out, it needs shaping and that involves - rationally - taking shortcuts.
 
-## Start here
+## 🏁 Start here
 
 [What is tech debt](https://www.youtube.com/watch?v=pqeJFYwnkjE)
 
@@ -25,7 +25,7 @@ We created this project as we felt that it is almost an inevitability that some 
 * Erik Dietrick goes into depth for how technical debt can harm teams.
 * There includes discussion on (1) unpleasant work (2) team infighting (3) atrophied skills (4) turnover and attrition
 
-## Case Studies
+## 🎖 Case Studies
 
 [A large bank](http://neopragma.com/index.php/2019/03/30/technical-debt-the-man-the-metaphor-the-message/)
 
@@ -40,9 +40,9 @@ We created this project as we felt that it is almost an inevitability that some 
 
 * [Will Larson](https://twitter.com/lethain?lang=en) explains how Stripe use migrations to get away from tech debt
 
-## Prevention
+## ⛔ Prevention
 
-### Requirements
+### 🤝 Requirements
 
 [Creating a Product Canvas](https://www.ebgconsulting.com/blog/using-product-canvas-define-product-getting-started/)
 
@@ -54,13 +54,9 @@ We created this project as we felt that it is almost an inevitability that some 
 * Flat product story backlogs are hard to understand - they are just a pile of features. By visualising an entire system with it can be much easier to spot opportunities or weaknesses, or indeed to work with other stakeholders in requirements gathering.
 * Create a series of cards with big stories (activities) at the top, down to tasks and then sub tasks.
 
-[Agile Product Management](http://burozeven.nl/robbinschuurman/2017/11/14/10-tips-for-product-owners-on-agile-product-management/)
-
-* 
-
 [Joint Application Design](https://www.pmi.org/learning/library/determining-project-requirements-best-practices-7278)
 
-* This is a thorough run-through by the Project Management Institute for Joint Application Design, designed for multi-stakeholder situations.
+* This is a thorough run-through by the Project Management Institute for Joint Application Design. It gives guidance on how to run design sessions for multi-stakeholder requirements gathering.
 
 ### Infrastructure
 
@@ -84,10 +80,14 @@ Todo
 ### Code
 Todo
 ### Testing
-Todo
+[Test Driven Development](https://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf)
+
+* [Kent Beck](https://twitter.com/KentBeck) is accredited with the concept of Test Driven Development (TDD)
+* Test Driven Development is defined by writing tests before writing any functionality.
+
 ### Build
 Todo
-### Documentation
+### 📝 Documentation
 Todo
 ### Versioning
 Todo
@@ -107,7 +107,7 @@ Todo
 * Confirmation and hindsight bias.
 * Creating a safe culture to discuss failure.
 
-### High Interest Debt First
+### 💣 High Interest Debt First
 
 ['State of the Art - research summary'](https://arxiv.org/pdf/1904.12538.pdf)
 
@@ -115,15 +115,17 @@ Todo
 * Code and architecture are by far the two most focussed on areas, yet there are many more forms of debt (requirements, and tests, for example).
 
 ### Boy Scout Rule
-Todo
+[The Boy Scout Rule explained](https://dev.to/_arunsasi/the-boy-scout-rule)
 
-###Tools
-Continuous tracking of Tech Debt based on merges: [Hiberly](https://hiberly.com)
-Code coverage, Cyclomatic complexity: [Sonarqube](http://www.sonarqube.org/)
-Time to Interact: [Yottaa](http://www.yottaa.com/)
-Application security: [Veracode](http://www.veracode.com/)
-Infrastructure performance: [Splunk](http://www.splunk.com/)
-Scalability: [SOASTA](http://www.soasta.com/)
+* [Arun Sasidharan](https://twitter.com/voidmaindev) creates a great explanation of Bob Martin's rule.
+
+### 🧭 Tools
+* Continuous tracking of Tech Debt based on merges: [Hiberly](https://hiberly.com)
+* Code coverage, Cyclomatic complexity: [Sonarqube](http://www.sonarqube.org/)
+* Time to Interact: [Yottaa](http://www.yottaa.com/)
+* Application security: [Veracode](http://www.veracode.com/)
+* Infrastructure performance: [Splunk](http://www.splunk.com/)
+* Scalability: [SOASTA](http://www.soasta.com/)
 
 ## Contributing
 
@@ -137,3 +139,10 @@ Please read [CONTRIBUTING.md](to follow!) for details on our code of conduct, an
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Sponsors
+
+[![Hiberly](https://s3-eu-west-2.amazonaws.com/hiberly-wordpress/wp-content/uploads/2019/07/31001245/small-logo-whiteback-blockdots-blacktext-1-e1564532005680.png)](https://hiberly.com?utm_campaign=os&utm_medium=getify&utm_source=sponsorship)
+
+Hiberly prioritises tech debt by grabbing feedback from developers after each merge.
+You can then draw cool graphs of your code versus happiness / frustration to help explain the impact of refactoring.
