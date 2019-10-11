@@ -1,154 +1,129 @@
-# tech-debt-reading-list
+# Tech Debt - Prevention, Diagnosis and Cure
+
 A tech debt reading and resources list - to help diagnose, prevent and control tech debt.
-# Project Title
 
-One Paragraph of project description goes here
+We created this project as we felt that it is almost an inevitability that some level of "tech debt" is encountered in every company, and many projects. The reason being that to get a feature out, it needs shaping and that involves - rationally - taking shortcuts.
 
-## Getting Started
+## Start here
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+[What is tech debt](https://www.youtube.com/watch?v=pqeJFYwnkjE)
 
+* Ward Cunningham created the term in the first place.
+* History, motivation and common misunderstanding of the "debt metaphor" for refactoring.
 
-```
-# Project Title
+[Classifying Technical Debt](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
 
-One Paragraph of project description goes here
+* Martin Fowler makes two disctions (1) prudent and reckless debt, and (2) deliberate and inadvertent debt, this is known as the TechnicalDebtQuadrant.
 
-## Getting Started
+[Identifying when Technical Debt needs action](https://blog.crisp.se/2013/10/11/henrikkniberg/good-and-bad-technical-debt)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+* [Henrik Kniberg](https://twitter.com/henrikkniberg) argues that older tech debt is bad, whereas new tech debt is acceptable in order to build prototypes.
+* Concept of a qualitative debt ceiling technique to manage the level of technical debt.
 
-### Prerequisites
+[The Human Cost of Technical Debt?](https://daedtech.com/human-cost-tech-debt/)
 
-What things you need to install the software and how to install them
+* Erik Dietrick goes into depth for how technical debt can harm teams.
+* There includes discussion on (1) unpleasant work (2) team infighting (3) atrophied skills (4) turnover and attrition
 
-```
-Give examples
-```
+## Case Studies
 
-### Installing
+[A large bank](http://neopragma.com/index.php/2019/03/30/technical-debt-the-man-the-metaphor-the-message/)
 
-A step by step series of examples that tell you how to get a development env running
+* [Dave Nicollete](https://twitter.com/davenicolette) covers a detailed case study, with costs, of resolving prudent-intentional debt.
+* Costs of the cleanup and the business impact included.
 
-Say what the step will be
+[Ticketmaster](https://tech.ticketmaster.com/2015/06/30/what-ticketmaster-is-doing-about-technical-debt/)
 
-```
-Give the example
-```
+* Step-by-step guidance on how Ticketmaster assessed their technical debt over 12 months.
 
-And repeat
+[Stripe](https://www.infoq.com/presentations/stripe-technical-debt/)
 
-```
-until finished
-```
+* [Will Larson](https://twitter.com/lethain?lang=en) explains how Stripe use migrations to get away from tech debt
 
-End with an example of getting some data out of the system or using it for a little demo
+##Prevention
 
-## Running the tests
+###Requirements
 
-Explain how to run the automated tests for this system
+[Creating a Product Canvas](https://www.ebgconsulting.com/blog/using-product-canvas-define-product-getting-started/)
 
-### Break down into end to end tests
+* 
 
-Explain what these tests test and why
+[Story Mapping](https://www.jpattonassociates.com/the-new-backlog/)
 
-```
-Give an example
-```
+* [Jeff Patton](https://twitter.com/jeffpatton) invented the concept of Story Mapping (you can see a [video of this process](https://www.youtube.com/watch?v=XzaCaW8c3qE) here) 
+* Flat product story backlogs are hard to understand - they are just a pile of features. By visualising an entire system with it can be much easier to spot opportunities or weaknesses, or indeed to work with other stakeholders in requirements gathering.
+* Create a series of cards with big stories (activities) at the top, down to tasks and then sub tasks.
 
-### And coding style tests
+[Agile Product Management](http://burozeven.nl/robbinschuurman/2017/11/14/10-tips-for-product-owners-on-agile-product-management/)
 
-Explain what these tests test and why
+* 
 
-```
-Give an example
-```
+[Joint Application Design](https://www.pmi.org/learning/library/determining-project-requirements-best-practices-7278)
 
-## Deployment
+* This is a thorough run-through by the Project Management Institute for Joint Application Design, designed for multi-stakeholder situations.
 
-Add additional notes about how to deploy this on a live system
+### Infrastructure
 
-## Built With
+[DevOps 101](https://opensource.com/article/19/4/devops-pipeline)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Bryant Son's](https://twitter.com/bryantjiminson) simple guide that guides you through the basic setup to enable you to build you first pipeline
+* Covers (1) CI/CD Tools (2) source control management (3) build automation (4) web app servers (5) code testing coverage
 
-## Contributing
+[Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* Continuous integration makes it easier to build cohesive software more rapidly. It involves every team member integrating their work frequently - normally, daily.
+* It makes bugs show up more quickly because there are fewer areas where they could be lurking (ie diff-debugging is possible)
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-Welcome to the Tech Debt Reading and Resources list!
-
-Definitions
-
-https://18f.gsa.gov/2015/09/04/what-is-technical-debt/
-https://www.martinfowler.com/bliki/TechnicalDebt.html
-http://www.youtube.com/WardCunningham#p/a/E95B31B1A940296B/2/pqeJFYwnkjE
-
-Tools
-
-Application Debt
-
-Code coverage, Cyclomatic complexity: Sonarqube http://www.sonarqube.org/
-Time to Interact: Yottaa http://www.yottaa.com/
-Application security: Veracode http://www.veracode.com/
-
-Infrastructure Debt
-
-Infrastructure performance: Splunk http://www.splunk.com/
-Scalability: SOASTA http://www.soasta.com/
-
-
-Costs
-
-https://daedtech.com/human-cost-tech-debt/
-
-Evaluation
-
-https://tech.ticketmaster.com/2015/06/30/what-ticketmaster-is-doing-about-technical-debt/
-
-Management
-
-
-BEST PRACTISES
-
-Architecture
+###Architectural
 
 http://www.exa.unicen.edu.ar/escuelapav/cursos/slidesclements.pdf
 https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/
 
-Code
+###Design
+Todo
+###Code
+Todo
+###Testing
+Todo
+###Build
+Todo
+###Documentation
+Todo
+###Versioning
+Todo
 
+##Remediation
 
-Tests
+###Post Mortems
 
+[PagerDuty Toolbox]([https://postmortems.pagerduty.com](https://postmortems.pagerduty.com/))
 
+* PagerDuty have put together a completely all encompassing set of templates and an approach to the Post Mortem.
 
-```
+[Language to use, understanding causation, and how to share](https://fractio.nl/2015/10/30/blame-language-sharing/)
 
+* [Lindsay Holmwood](https://twitter.com/auxesis) discusses how a thoughtful approach to learning from failure is key.
+* When to use "how" versus "what" versus "why".
+* Confirmation and hindsight bias.
+* Creating a safe culture to discuss failure.
 
+### High Interest Debt First
 
+['State of the Art - research summary'](https://arxiv.org/pdf/1904.12538.pdf)
+
+* 38 research papers summarised found there isn't a distinct "best practice" that has become clear yet.
+* Code and architecture are by far the two most focussed on areas, yet there are many more forms of debt (requirements, and tests, for example).
+
+###Boy Scout Rule
+Todo
+
+###Tools
+Continuous tracking of Tech Debt based on merges: [Hiberly](https://hiberly.com)
+Code coverage, Cyclomatic complexity: [Sonarqube](http://www.sonarqube.org/)
+Time to Interact: [Yottaa](http://www.yottaa.com/)
+Application security: [Veracode](http://www.veracode.com/)
+Infrastructure performance: [Splunk](http://www.splunk.com/)
+Scalability: [SOASTA](http://www.soasta.com/)
 
 ## Contributing
 
@@ -158,8 +133,6 @@ Please read [CONTRIBUTING.md](to follow!) for details on our code of conduct, an
 ## Authors
 
 * **James Hawkins** - *Initial work* - [jamesefhawkins](https://github.com/jamesefhawkins)
-
-See also the list of [contributors](https://github.com/tech-debt-reading/contributors) who participated in this project.
 
 ## License
 
