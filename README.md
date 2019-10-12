@@ -45,7 +45,7 @@ This list was put together because it is an inevitability that _some_ level of "
 * [Dave Rau](http://daverau.info/) explains how when Optimizely got to 50 UI issues, they decided to do something about it.
 * The team ran a 'Polish Day' once a week, with a points system for designers to prioritize work.
 
-[Paddy Power]((https://www.researchgate.net/publication/271635510_Continuous_Delivery_Huge_Benefits_but_Challenges_Too)
+[Paddy Power](https://www.researchgate.net/publication/271635510_Continuous_Delivery_Huge_Benefits_but_Challenges_Too)
 
 * [Lianping Chen](https://twitter.com/lianpingchen)'s article explains why the Paddy Power team decided to adopt Continuous Delivery, and explains the benefits and challenges involved.
 
