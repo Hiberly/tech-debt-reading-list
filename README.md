@@ -8,12 +8,12 @@ This list was put together because it is an inevitability that _some_ level of "
 
 [What is tech debt](https://www.youtube.com/watch?v=pqeJFYwnkjE)
 
-* Ward Cunningham created the term in the first place.
+* [Ward Cunningham](https://twitter.com/WardCunningham) created the term in the first place.
 * History, motivation and common misunderstanding of the "debt metaphor" for refactoring.
 
 [Classifying Technical Debt](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
 
-* Martin Fowler makes two disctions (1) prudent and reckless debt, and (2) deliberate and inadvertent debt, this is known as the TechnicalDebtQuadrant.
+* [Martin Fowler](https://twitter.com/martinfowler) makes two disctions (1) prudent and reckless debt, and (2) deliberate and inadvertent debt, this is known as the TechnicalDebtQuadrant.
 
 [Identifying when Technical Debt needs action](https://blog.crisp.se/2013/10/11/henrikkniberg/good-and-bad-technical-debt)
 
@@ -44,6 +44,10 @@ This list was put together because it is an inevitability that _some_ level of "
 
 * [Dave Rau](http://daverau.info/) explains how when Optimizely got to 50 UI issues, they decided to do something about it.
 * The team ran a 'Polish Day' once a week, with a points system for designers to prioritize work.
+
+[Paddy Power]((https://www.researchgate.net/publication/271635510_Continuous_Delivery_Huge_Benefits_but_Challenges_Too)
+
+* [Lianping Chen](https://twitter.com/lianpingchen)'s article explains why the Paddy Power team decided to adopt Continuous Delivery, and explains the benefits and challenges involved.
 
 ## ⛔ Prevention
 
@@ -80,7 +84,11 @@ This list was put together because it is an inevitability that _some_ level of "
 ### 🏛️ Architectural
 
 http://www.exa.unicen.edu.ar/escuelapav/cursos/slidesclements.pdf
-https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/
+
+[Software Architecture Patterns](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/)
+
+* [Mark Richards'](https://twitter.com/markrichardssa) book, fully available for free, gives an overview of (1) layered architecture (2) event-driven architecture (3) microkernel architecture (4) microservices architecture (5) space-based architecture.
+* Within each section, there is a run through of the circumstances that are appropriate for each architectural type.
 
 ### 🎨 Design
 
@@ -110,7 +118,16 @@ https://www.oreilly.com/library/view/software-architecture-patterns/978149197143
 * Test Driven Development is defined by writing tests before writing any functionality.
 
 ### 🛠️ Build
-Todo
+[Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+
+* Martin Fowler's overview explains how Continuous Integration - where members of a team integrate their work frequently, usually daily by each developer - can ensure the codebase is more coherent and bugs are easier to find.
+* The article covers the practices, but also the benefits and how to introduce Continuous Integration into the way a team works.
+
+[Continuous Delivery - a systemic review of approaches](https://ieeexplore.ieee.org/document/7884954)
+
+* This paper represents a state of the art, based on peer-reviewed papers from 2004 to 2016.
+* The paper identifies 30 approaches and associated tools, including succesful applications to both greenfield and existing codebases, with the issues and opportunities that continuous practices summarised.
+
 ### 📝 Documentation
 Todo
 ### 🏚️ Versioning
