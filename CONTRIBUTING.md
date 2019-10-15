@@ -16,7 +16,7 @@ There are lots of articles that just repeat other articles. Try to get to the bo
 
 We've chosen to publish this as open source to keep things more neutral.
 
-It can be unavoidable to have a certain degree of commercial content - the quality bar needs to be higher for it to be included. For example, we decided to include the [PagerDuty toolbox](https://postmortems.pagerduty.com](https://postmortems.pagerduty.com/), because it is high enough quality.
+It can be unavoidable to have a certain degree of commercial content - the quality bar needs to be higher for it to be included. For example, we decided to include the [PagerDuty toolbox](https://postmortems.pagerduty.com/), because it is high enough quality.
 
 Pro-tip: with research papers, many of them are gated behind a paywall, but are then freely available elsewhere on the web, please have a look first and make it clear if the resources is a paid paper.
 
