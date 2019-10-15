@@ -229,7 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Sponsors
 
-[<img src="https://s3-eu-west-2.amazonaws.com/hiberly-wordpress/wp-content/uploads/2019/07/31001245/small-logo-whiteback-blockdots-blacktext-1-e1564532005680.png" alt="Hiberly Logo" width="100"/>](https://hiberly.com?utm_campaign=os&utm_medium=getify&utm_source=sponsorship)
+[<img src="https://s3-eu-west-2.amazonaws.com/hiberly-wordpress/wp-content/uploads/2019/07/31001245/small-logo-whiteback-blockdots-blacktext-1-e1564532005680.png" alt="Hiberly Logo" width="100"/>](https://hiberly.com?utm_campaign=os&utm_medium=techdebtreadinglist&utm_source=sponsorship)
 
 Hiberly prioritizes tech debt by grabbing feedback from developers after each merge.
 
