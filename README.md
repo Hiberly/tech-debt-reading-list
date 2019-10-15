@@ -17,7 +17,7 @@ This is a WIP! Please add any resources you find interesting by forking and crea
   - [✅ Testing](#-testing)
   - [🛠️ Build](#-build)
   - [📝 Documentation](#-documentation)
-  - [🏚️ Versioning](#-versioning)
+  - [🏚️ Versioning](#%EF%B8%8F-versioning)
 - [🏥 Remediation](#-remediation)
   - [🔍 Post Mortems](#-post-mortems)
   - [💣 High Interest Debt First](#-high-interest-debt-first)
