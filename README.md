@@ -76,11 +76,6 @@ This list was put together because it is an inevitability that _some_ level of "
 * [Bryant Son's](https://twitter.com/bryantjiminson) simple guide that guides you through the basic setup to enable you to build you first pipeline
 * Covers (1) CI/CD Tools (2) source control management (3) build automation (4) web app servers (5) code testing coverage
 
-[Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
-
-* Continuous integration makes it easier to build cohesive software more rapidly. It involves every team member integrating their work frequently - normally, daily.
-* It makes bugs show up more quickly because there are fewer areas where they could be lurking (ie diff-debugging is possible)
-
 ### 🏛️ Architectural
 
 [Practical tips on Software Architecture Design](https://medium.com/@mbue/practical-tips-on-software-architecture-design-part-one-1c6bb0167157)
@@ -126,12 +121,12 @@ This list was put together because it is an inevitability that _some_ level of "
 ### 🛠️ Build
 [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
 
-* Martin Fowler's overview explains how Continuous Integration - where members of a team integrate their work frequently, usually daily by each developer - can ensure the codebase is more coherent and bugs are easier to find.
+* [Martin Fowler](https://twitter.com/martinfowler)'s overview explains how Continuous Integration - where members of a team integrate their work frequently, usually daily by each developer - can ensure the codebase is more coherent and bugs are easier to find.
 * The article covers the practices, but also the benefits and how to introduce Continuous Integration into the way a team works.
 
 [Continuous Delivery - a systemic review of approaches](https://ieeexplore.ieee.org/document/7884954)
 
-* This paper represents a state of the art, based on peer-reviewed papers from 2004 to 2016.
+* This paper represents a state of the art, based on peer-reviewed papers from 2004 to 2016, by [Mojtaba Shahin](https://twitter.com/mojtabashahin), [Ali Babar](https://twitter.com/alibabar?lang=en), and [Liming Zhu](https://twitter.com/limingz).
 * The paper identifies 30 approaches and associated tools, including succesful applications to both greenfield and existing codebases, with the issues and opportunities that continuous practices summarised.
 
 ### 📝 Documentation
@@ -150,7 +145,7 @@ This list was put together because it is an inevitability that _some_ level of "
 ### 🏚️ Versioning
 [Version control best practices](https://www.git-tower.com/blog/version-control-best-practices/)
 
-* A simple set of rules from Tobias Günther, the founder of Tower (a Git client) hat will help make sure the whole team can work with the commits that each developer makes.
+* A simple set of rules from [Tobias Günther](https://twitter.com/gntr), the founder of Tower (a Git client) hat will help make sure the whole team can work with the commits that each developer makes.
 
 [Writing good commit messages](https://chris.beams.io/posts/git-commit/)
 
@@ -194,7 +189,7 @@ This list was put together because it is an inevitability that _some_ level of "
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](to follow!) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
@@ -207,8 +202,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Sponsors
 
-[![Hiberly](https://s3-eu-west-2.amazonaws.com/hiberly-wordpress/wp-content/uploads/2019/07/31001245/small-logo-whiteback-blockdots-blacktext-1-e1564532005680.png)](https://hiberly.com?utm_campaign=os&utm_medium=getify&utm_source=sponsorship)
+[<img src="https://s3-eu-west-2.amazonaws.com/hiberly-wordpress/wp-content/uploads/2019/07/31001245/small-logo-whiteback-blockdots-blacktext-1-e1564532005680.png" alt="Hiberly Logo" width="100"/>](https://hiberly.com?utm_campaign=os&utm_medium=getify&utm_source=sponsorship)
 
-Hiberly prioritises tech debt by grabbing feedback from developers after each merge.
+Hiberly prioritizes tech debt by grabbing feedback from developers after each merge.
 
 You can then draw cool graphs of your code versus happiness / frustration to help explain the impact of refactoring.
