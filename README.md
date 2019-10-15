@@ -1,19 +1,44 @@
 # Tech Debt - Prevention, Diagnosis and Cure
 
-A tech debt reading and resources list - to help diagnose, prevent and control tech debt.
+A tech debt reading and resources list. This list contains lots of ways to diagnose, prevent and control tech debt.
 
-This list was put together because it is an inevitability that _some_ level of "tech debt" is encountered in every company, and many projects. The reason being that to get a feature out, it needs shaping and that involves - rationally - taking shortcuts.
+This is a WIP! Please add any resources you find interesting by forking and creating a pull request.
+
+**Table of Contents** 
+
+- [Tech Debt - Prevention, Diagnosis and Cure](#tech-debt---prevention-diagnosis-and-cure)
+  - [🏁 Start here](#-start-here)
+  - [🎖 Case Studies](#%F0%9F%8E%96-case-studies)
+  - [⛔ Prevention](#-prevention)
+    - [🤝 Requirements](#-requirements)
+    - [📡 Infrastructure](#-infrastructure)
+    - [🏛️ Architectural](#-architectural)
+    - [🎨 Design](#-design)
+    - [💻 Code](#-code)
+    - [✅ Testing](#-testing)
+    - [🛠️ Build](#-build)
+    - [📝 Documentation](#-documentation)
+    - [🏚️ Versioning](#-versioning)
+  - [🏥 Remediation](#-remediation)
+    - [🔍 Post Mortems](#-post-mortems)
+    - [💣 High Interest Debt First](#-high-interest-debt-first)
+    - [🧭 Boy Scout Rule](#%F0%9F%A7%AD-boy-scout-rule)
+    - [🧰 Tools](#%F0%9F%A7%B0-tools)
+  - [Contributing](#contributing)
+  - [Authors](#authors)
+  - [License](#license)
+  - [Sponsors](#sponsors)
 
 ## 🏁 Start here
 
 [What is tech debt](https://www.youtube.com/watch?v=pqeJFYwnkjE)
 
-* [Ward Cunningham](https://twitter.com/WardCunningham) created the term in the first place.
-* History, motivation and common misunderstanding of the "debt metaphor" for refactoring.
+* [Ward Cunningham](https://twitter.com/WardCunningham) coined the term "tech debt".
+* Talks about history, motivation and common misunderstanding of the "debt metaphor" for refactoring.
 
 [Classifying Technical Debt](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
 
-* [Martin Fowler](https://twitter.com/martinfowler) makes two disctions (1) prudent and reckless debt, and (2) deliberate and inadvertent debt, this is known as the TechnicalDebtQuadrant.
+* [Martin Fowler](https://twitter.com/martinfowler) makes two disctions (1) prudent and reckless debt, and (2) deliberate and inadvertent debt. A classic
 
 [Identifying when Technical Debt needs action](https://blog.crisp.se/2013/10/11/henrikkniberg/good-and-bad-technical-debt)
 
@@ -76,6 +101,8 @@ This list was put together because it is an inevitability that _some_ level of "
 * [Bryant Son's](https://twitter.com/bryantjiminson) simple guide that guides you through the basic setup to enable you to build you first pipeline
 * Covers (1) CI/CD Tools (2) source control management (3) build automation (4) web app servers (5) code testing coverage
 
+*TODO*: Add better DevOps resources here
+
 ### 🏛️ Architectural
 
 [Practical tips on Software Architecture Design](https://medium.com/@mbue/practical-tips-on-software-architecture-design-part-one-1c6bb0167157)
@@ -94,7 +121,7 @@ This list was put together because it is an inevitability that _some_ level of "
 ### 🎨 Design
 
 [What is design debt?](https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89)
-* An extensive run through by [Michal Mazur](https://twitter.com/mazi_mazur), from his experiences at Kurt Geiger, where they ran a 
+* An extensive run through by [Michal Mazur](https://twitter.com/mazi_mazur), from his experiences at Kurt Geiger, where they had people drop out of the funnel because of inconsistent design.
 
 [Marginal Brand Degredation](https://markboulton.co.uk/journal/marginal-degredation/)
 * Just 1.6% is the difference in DNA between a gorilla and a human. [Mark Boulton](https://twitter.com/markboulton) uses a powerful analogy to explain the importance of marginal brand degradation.
@@ -115,7 +142,7 @@ This list was put together because it is an inevitability that _some_ level of "
 ### ✅ Testing
 [Test Driven Development](https://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf)
 
-* [Kent Beck](https://twitter.com/KentBeck) is accredited with the concept of Test Driven Development (TDD)
+* [Kent Beck](https://twitter.com/KentBeck) came up with the concept of Test Driven Development (TDD)
 * Test Driven Development is defined by writing tests before writing any functionality.
 
 ### 🛠️ Build
@@ -195,6 +222,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 ## Authors
 
 * **James Hawkins** - *Initial work* - [jamesefhawkins](https://github.com/jamesefhawkins)
+* **Tim Glaser** - *Editing* - [timgl](https://github.com/timgl)
 
 ## License
 
