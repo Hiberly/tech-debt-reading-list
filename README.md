@@ -135,7 +135,7 @@ This is a WIP! Please add any resources you find interesting by forking and crea
 ### 💻 Code
 [SOLID Principles of Object Oriented and Agile Design](https://www.youtube.com/watch?v=TMuno5RZNeE)
 
-* Bob Martin ('Uncle Bob') explains software design principles.
+* [Bob Martin](https://twitter.com/unclebobmartin) ('Uncle Bob') explains software design principles.
 * This covers the principles of: Single Repository, Open Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
 
 ### ✅ Testing
@@ -202,7 +202,7 @@ This is a WIP! Please add any resources you find interesting by forking and crea
 ### 🧭 Boy Scout Rule
 [The Boy Scout Rule explained](https://dev.to/_arunsasi/the-boy-scout-rule)
 
-* [Arun Sasidharan](https://twitter.com/voidmaindev) creates a great explanation of Bob Martin's rule.
+* [Arun Sasidharan](https://twitter.com/voidmaindev) creates a great explanation of [Bob Martin](https://twitter.com/unclebobmartin)'s rule.
 * The premise is to create a culture of leaving the code in a better state than when you started.
 
 ### 🧰 Tools
