@@ -83,7 +83,13 @@ This list was put together because it is an inevitability that _some_ level of "
 
 ### 🏛️ Architectural
 
-http://www.exa.unicen.edu.ar/escuelapav/cursos/slidesclements.pdf
+[Practical tips on Software Architecture Design](https://medium.com/@mbue/practical-tips-on-software-architecture-design-part-one-1c6bb0167157)
+
+* [Marco Bürckel ](https://twitter.com/mbue86) gives a good 101 on how to architect a system, starting with what to do before you pick a software deign pattern, through to functional and non-functional requirements and iteration.
+
+[Understanding software design patterns](https://opensource.com/article/19/7/understanding-software-design-patterns)
+
+* [Bryant Son](https://twitter.com/bryantjiminson) provides detailed diagrams explaining different software patterns, including (1) Singleton (2) Factory (3) Observer, with code examples for each.
 
 [Software Architecture Patterns](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/)
 
@@ -129,9 +135,26 @@ http://www.exa.unicen.edu.ar/escuelapav/cursos/slidesclements.pdf
 * The paper identifies 30 approaches and associated tools, including succesful applications to both greenfield and existing codebases, with the issues and opportunities that continuous practices summarised.
 
 ### 📝 Documentation
-Todo
+[Real life examples of great documentation](https://www.atlassian.com/blog/add-ons/5-real-life-examples-beautiful-technical-documentation)
+
+* [Katrina Morales](https://twitter.com/katrinahmorales) gives examples covering (1) providing answers fast (2) creating community through comments (3) great navigation (4) design (5) rich content.
+
+[Extreme Programming Documentation](https://ronjeffries.com/xprog/articles/expdocumentationinxp/)
+
+* [Ron Jeffries](https://twitter.com/RonJeffries), one of the three founders of Extreme Programming, covers the documentation of (1) requirements (2) design (3) code (4) manuals.
+
+[The Eight Rules of Good Documentation](https://www.oreilly.com/ideas/the-eight-rules-of-good-documentation)
+
+* This excerpt from [Adam Scott](https://twitter.com/adamdscott)'s '[Collaborative Web Development](https://www.safaribooksonline.com/library/view/collaborative-web-development/9781491996096/?_ga=2.191768554.1140860929.1571121117-2134570287.1570721867)' book, walks through not the "what" of documentation, but the "how".
+
 ### 🏚️ Versioning
-Todo
+[Version control best practices](https://www.git-tower.com/blog/version-control-best-practices/)
+
+* A simple set of rules from Tobias Günther, the founder of Tower (a Git client) hat will help make sure the whole team can work with the commits that each developer makes.
+
+[Writing good commit messages](https://chris.beams.io/posts/git-commit/)
+
+* You will default into messy commit messages. [Chris Beams](https://twitter.com/cbeams) shows what good looks like.
 
 ## 🏥 Remediation
 
