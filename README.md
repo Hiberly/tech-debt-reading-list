@@ -181,7 +181,7 @@ This is a WIP! Please add any resources you find interesting by forking and crea
 
 ### 🔍 Post Mortems
 
-[PagerDuty Toolbox]([https://postmortems.pagerduty.com](https://postmortems.pagerduty.com/))
+[PagerDuty Toolbox](https://postmortems.pagerduty.com/)
 
 * PagerDuty have put together a completely all encompassing set of templates and an approach to the Post Mortem.
 
