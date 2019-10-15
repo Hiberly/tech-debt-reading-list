@@ -1,6 +1,6 @@
 # Tech Debt - Prevention, Diagnosis and Cure
 
-A tech debt reading and resources list. This list contains lots of ways to diagnose, prevent and control tech debt.
+A tech debt reading and resources list. It contains lots of ways to diagnose, prevent and control tech debt.
 
 This is a WIP! Please add any resources you find interesting by forking and creating a pull request.
 
