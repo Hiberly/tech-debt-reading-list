@@ -2,7 +2,7 @@
 
 A tech debt reading and resources list. It contains lots of ways to diagnose, prevent and control tech debt.
 
-This is a WIP! Please add any resources you find interesting by forking and creating a pull request.
+This is a WIP! Please add any resources you find interesting by creating a fork and creating a pull request.
 
 **Table of Contents** 
 
